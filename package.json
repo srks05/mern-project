@@ -1,0 +1,20 @@
+{
+  "name": "auction-abode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^3.7.0",
+    "@stripe/stripe-js": "^7.4.0",
+    "concurrently": "^9.1.2",
+    "socket.io-client": "^4.8.1"
+  }
+}
